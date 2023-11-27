@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBSITE DEVELOPMENT WEBINAR</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="icon" type="image" href="teeny2.png">
+
+</head>
+<style>
+    h1 {
+        display: inline;
+        text-indent: 8px;
+    }
+
+    h1 span {
+        animation: leftToright 5s infinite 0s;
+        -ms-animation: leftToright 5s infinite 0s;
+        -webkit-animation: leftToright 5s infinite 0s;
+        color: rgb(213, 87, 42);
+        opacity: 0;
+        overflow: hidden;
+        position: absolute;
+    }
+
+    h1 span:nth-child(2) {
+        animation-delay: 2s;
+        -ms-animation-delay: 2s;
+        -webkit-animation-delay: 2s;
+    }
+
+    h1 span:nth-child(3) {
+        animation-delay: 3s;
+        -ms-animation-delay: 3s;
+        -webkit-animation-delay: 3s;
+    }
+
+    .as,.a,.ha{
+    display: inline-block;
+    margin-left: 200px;
+
+}
+.t,.ah,.ab{
+    
+    display: inline-block;
+    margin-left: 200px;
+   
+}
+    .as{
+        margin: 10px;
+        background: linear-gradient( rgb(255, 155, 146) , rgb(214, 50, 50));
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+    
+    }
+    .a{
+        margin: 10px;
+        background: linear-gradient( rgb(255, 155, 146) , rgb(214, 50, 50));
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+    }
+    .ha{
+        margin: 10px;
+        background: linear-gradient( rgb(255, 155, 146) , rgb(214, 50, 50));
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+    }
+    .ah{
+        margin: 10px;
+        background: linear-gradient( rgb(255, 155, 146) , rgb(214, 50, 50));
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+    }
+    .t{
+        margin: 10px;
+        background: linear-gradient( rgb(255, 155, 146) , rgb(214, 50, 50));
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+       
+    }
+    .ab{
+        margin: 10px; 
+        background: linear-gradient( rgb(255, 155, 146) , rgb(214, 50, 50));
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+    }
+
+     @-webkit-keyframes leftToright {
+        0% {
+            opacity: 0;
+        }
+
+        25% {
+            opacity: 0;
+        }
+
+        50% {
+            opacity: 0;
+        }
+
+        75% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+
+
+   
+</style>
+<style>
+    body,
+    nav {
+        width: 100%;
+    }
+
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: rgba(240, 240, 252, 0.962);
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropbtn {
+        padding: 10px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #ddd;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    @media screen and (max-width:900px) {
+
+        nav,
+        body {
+            width: auto;
+        }
+    }
+
+
+    .afshan
+    {
+        height: 550px;
+        width: 1210px;
+        background-color: rgb(0, 136, 255);
+        position: absolute;
+        margin-top: 300px;
+        
+    }
+
+    .orangefooter
+    {
+        height: 150px;
+        width: 750px;
+        background-color: rgb(243, 123, 112);
+        text-align: center;
+        color: white;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+       border-bottom-right-radius: 20px;
+       border-top-left-radius: 20px;
+       font-size:bold;
+       margin-top: -560px;
+       position: flex;
+       margin-left:260px;
+     
+
+
+    }
+
+    .view
+    {
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+       border-bottom-right-radius: 20px;
+       border-top-left-radius: 20px;
+       color:rgb(242, 97, 72) ;
+        background-color: white;
+        text-align: center; 
+        height: 35px; 
+        width: 145px;
+        margin-left: 230px;
+        margin-top: 20px;
+        float: left;
+        padding:6px;
+       
+        
+    }
+
+    .contact
+    {
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+       border-bottom-right-radius: 20px;
+       border-top-left-radius: 20px;
+       color:rgb(242, 97, 72) ;
+        background-color: white;
+        text-align: center; 
+        height: 35px; 
+        width: 145px;
+        margin-left: 400px;
+        float: right;
+        position: absolute;
+        margin-top: 20px;
+        padding:6px;
+        
+    }
+
+ 
+
+
+    .color-changing-image {
+      filter: grayscale(100%); /* Change the value to adjust the effect */
+    }
+
+</style>
+
+<body>
+
+
+
+
+    <nav class="navbar navbar-light" style="background-color: #fadac4; height: 100px;">
+        <img src="teenylogonew.webp" height="40px" width="140px"
+            style="margin-left: 70px;">
+        <h1 style="  color: rgb(213, 87, 42); font-weight: bolder; ">WEBSITE DEVELOPMENT</h1>
+       &nbsp;
+        <a href="https://teenycoders.com/" class="btn btn-info" style="margin-right :85px ;" role="button">Explore Us</a>
+    </nav>
+
+
+
+    <aside style=" margin-left: 20px;width: 54%; display: inline-block; margin-top: 110px">
+
+        <h1 style="color: rgba(5, 43, 64, 0.919);font-weight: 900;font-size: 60px;"> <strong>LEARN
+                FROM<br>
+                ISHMAL
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JAVASCRIPT</span>
+
+            </strong></h1><br><br>
+        <h3 style="font-size: 25px;text-align: justify;">
+            HTML provides the structure, CSS adds style and design, while JavaScript brings interactivity to create dynamic and engaging web experiences.
+        </h3><br><br>
+
+        <h2> Global online School Coding for kids and adults.</h2>
+    </aside>
+    <img src="t2.webp" height="500px" width="480px"
+        style="margin-left: 60%;display: inline-block; margin-top:-440px;"> <br>
+
+    <br>
+    <img src="stemlogo.webp" height="120px" width="280px"
+        style="margin-left:15%; ">
+
+    <img src="Techrydes-transformed.webp" height="110px" width="280px"
+        style="margin-left:25%; "> <br>
+    <br>
+
+
+    <marquee behavior=scroll scrollamount="25" direction="right"
+        style="margin-left: 100px;margin-right: 100px; margin-top: 70px;"> <img
+            src="pnew.png" height="120px" width="130px">
+    </marquee>
+    <h2 style=" text-align: center;font-size: 24px;font-weight: 750;">
+        START YOUR KID’S JOURNEY WITH WEBSITE DEVELOPMENT LEADING BY ISHMAL NAYAB
+    </h2>
+    <br>
+    <h2 style=" text-align: center;font-size: 24px;font-weight: 750;">
+         ACCESS US ONLY WHEN YOU ARE SERIOUSE TO LEARN!!
+    </h2>
+    <br><br>
+    <h4 style=" text-align: center; text-decoration:wavy;">Explore some projects of website development made in html,css and js. </h4>
+    <img src="start-1.webp" style="margin-left: 100px;">
+    <br>
+    <div  class="as">
+        <button  id="i" style=" margin: 20%; border-radius: 50PX; transition: background-color 0.5s; margin-top: 30%; background-color:rgb(0, 136, 255);  height: 100px;text-align: left; width: 400px;  font-weight: 700; "><a href="C:\Users\ISHMAL NAYAB\Downloads\agecalculator.html" style="color:  rgb(71, 29, 14);">AGE CALCULATOR</a></a></button>
+    </div>
+
+
+   <div class="t">
+    <button id="i" style=" margin: 20%; border-radius: 50PX; transition: background-color 0.5s; margin-top: 30%; background-color:rgb(0, 136, 255);   color:  rgb(71, 29, 14);text-align: left;font-weight: 700;  height: 100px; width: 400px; "><a href="C:\Users\ISHMAL NAYAB\Desktop\webinar\index.html" style="color:  rgb(71, 29, 14);"> LIVE AUTHENTICATION</a></button>
+   </div>
+
+<div class="a">
+    <button id="i"style=" margin: 20%; border-radius: 50PX; transition: background-color 0.5s; margin-top: 30%;background-color: rgb(0, 136, 255);   color:  rgb(71, 29, 14); text-align: left;font-weight: 700; height: 100px; width: 400px; "><a href="C:\Users\ISHMAL NAYAB\Desktop\webinar\game.html" style="color:  rgb(71, 29, 14);">TIC TAC TOE</a></button>
+   </div>
+
+
+   <div class="ha">
+    <button id="i" style=" margin: 20%; border-radius: 50PX; transition: background-color 0.5s; margin-top: 30%; background-color: rgb(0, 136, 255);  color:  rgb(71, 29, 14);text-align: left; font-weight: 700;height: 100px; width: 400px; "><a href="C:\Users\ISHMAL%20NAYAB\Desktop\official%20work\sjs\web.html" style="color:  rgb(71, 29, 14);">SLIDER BABY WEB</a></button>
+   </div>
+
+
+
+   <div class="ab">
+    <button id="i" style=" margin: 20%; border-radius: 50PX; margin-top: 30%; transition: background-color 0.5s; background-color: rgb(0, 136, 255);   color: rgb(71, 29, 14); height: 100px; font-weight: 700;width: 400px; text-align: left;"><a href="C:\Users\ISHMAL%20NAYAB\Desktop\official%20work\sjs\About.html" style="color:  rgb(71, 29, 14);">ABOUT ISHMAL</a></button>
+   </div>
+
+
+
+   <div class="ah">
+    <button id="i" style="  margin: 20%; border-radius: 50PX;margin-top: 30%;  transition: background-color 0.5s;  background-color: rgb(0, 136, 255);  height: 100px; width: 400px;text-align: left;  font-weight: 700; color: rgb(71, 29, 14);"><a href="https://www.fiverr.com/" style="color:  rgb(71, 29, 14);">REAL LIFE EXAMPLE</a></button>
+   </div>
+
+
+    <br>
+    <img src="finish-line-1.png" style="margin-left: 800px;">
+
+
+
+   
+
+</body>
+<br>
+<br>
+<footer>
+  
+    <div class="afshan">
+
+    <a href style="color: white;font-weight: bolder;margin-left: 17%; margin-top: 12%; position: absolute;">Company Details</a><br>
+    
+    <a href style="color: rgb(235, 230, 230);margin-left: 17%; margin-top: 13%;position: absolute;">About Us</a>
+
+    <a href style="color: rgb(235, 230, 230);margin-left: 17%; margin-top: 15.99%;position: absolute;">Testimonials</a>
+
+    <a href style="color: rgb(235, 230, 230);margin-left: 17%; margin-top: 19.5%;position: absolute;">Why Teeny Coders</a>
+
+    <a href style="color: rgb(235, 230, 230);margin-left: 17%; margin-top: 22.5%;position: absolute;">Careers</a>
+    <a href style="color: rgb(235, 230, 230);margin-left: 17%; margin-top: 25.50%;position: absolute;">Media and Press Release</a>
+
+    <a href style="color: rgb(235, 230, 230);margin-left: 17%; margin-top: 28.75%;position: absolute;">Become a Teacher</a>
+
+    <a href style="color: rgb(235, 230, 230);margin-left: 17%; margin-top: 31.95%;position: absolute;">School/College Partnership</a>
+
+
+
+
+
+
+    
+
+        <a href style="color: white;font-weight: bolder;margin-left: 38%; margin-top: 10%; position: absolute;">Best Courses</a><br>
+        
+        <a href style="color: rgb(235, 230, 230);margin-left: 38%; margin-top: 11%;position: absolute;">Scratch Programming</a>
+    
+        <a href style="color: rgb(235, 230, 230);margin-left: 38%; margin-top: 13.99%;position: absolute;">Website Development</a>
+    
+        <a href style="color: rgb(235, 230, 230);margin-left: 38%; margin-top: 17.5%;position: absolute;">Python Programming</a>
+    
+        <a href style="color: rgb(235, 230, 230);margin-left: 38%; margin-top: 20.5%;position: absolute;">Andriod Development</a>
+        <a href style="color: rgb(235, 230, 230);margin-left: 38%; margin-top: 23.50%;position: absolute;">Machine Learning</a>
+
+        <a href style="color: rgb(235, 230, 230);margin-left: 38%; margin-top: 26.5%;position: absolute;">Graphic Designing</a>
+        
+
+
+
+
+
+        <a href style="color: white;font-weight: bolder;margin-left: 58%; margin-top: 8%; position: absolute;">Resources</a><br>
+        
+        <a href style="color: rgb(235, 230, 230);margin-left: 58%; margin-top: 9%;position: absolute;">Blog</a>
+    
+        <a href style="color: rgb(235, 230, 230);margin-left: 58%; margin-top: 11.99%;position: absolute;">Webinars</a>
+    
+        <a href style="color: rgb(235, 230, 230);margin-left: 58%; margin-top: 15.5%;position: absolute;">Students Projects</a>
+    
+        <a href style="color: rgb(235, 230, 230);margin-left: 58%; margin-top: 18.5%;position: absolute;">Andriod Development</a>
+        <a href style="color: rgb(235, 230, 230);margin-left: 58%; margin-top: 21.50%;position: absolute;">Pricing Plans</a>
+
+        <a href style="color: rgb(235, 230, 230);margin-left: 58%; margin-top: 24.5%;position: absolute;">System Check</a>
+
+
+
+
+
+
+        <a href style="color: white;font-weight: bolder;margin-left: 78%; margin-top: 6%; position: absolute;">Company Policies</a><br>
+        
+        <a href style="color: rgb(235, 230, 230);margin-left: 78%; margin-top: 7%;position: absolute;">Terms and Conditions</a>
+    
+        <a href style="color: rgb(235, 230, 230);margin-left: 78%; margin-top: 9.95%;position: absolute;">Privacy Policy</a>
+    
+        <a href style="color: rgb(235, 230, 230);margin-left: 78%; margin-top: 13.25%;position: absolute;">Refund Policy</a>
+    
+        <a href style="color: rgb(235, 230, 230);margin-left: 78%; margin-top: 16.25%;position: absolute;">Payment Policy</a>
+
+        
+
+
+
+        <hr style="color: rgb(247, 242, 242);margin-top: 30.25%;">
+       
+        <a href="https://www.facebook.com"><img src="fabk.png" height="39px" width="39px"
+            style="margin-left:20%; ">
+        </a>
+        <a href="https://twitter.com/"><img src="twitter.png" height="39px" width="39px"
+            style="margin-left:0.5%; ">
+        </a>
+
+        <a href="https://www.youtube.com/"><img src="yt.jpg" height="39px" width="39px"
+            style="margin-left:0.5%; ">
+        </a>
+        <a href=" https://www.linkedin.com/"><img src="linkdin.png" height="39px" width="39px"
+            style="margin-left:0.5%; ">
+        </a>
+
+       
+        <a href=" https://www.instagram.com/?hl=en"><img src="insta.png" height="39px" width="39px"
+            style="margin-left:0.5%; ">
+        </a>
+        <a href="    https://www.tiktok.com/explore"><img src="tiktok.png" height="39px" width="39px"
+            style="margin-left:0.5%; ">
+        </a>
+
+<h6 style="margin-left: 50%; margin-top: -25px; color: #ddd;"> © 2023 Teeny Coders. All Rights Reserved.</h6>
+
+       
+<h6 style="color: #ddd;margin-left: 79%;margin-top: -25px;">Made with <img src="greenheart-removebg-preview.png" height="20px" width="20px">
+in Pakistan</h6>
+     
+   
+
+       
+        <div class="orangefooter">
+            <br>
+                    <h4>"PRODUCING TECHLEADERS FOR FUTURE" </h4>
+                   
+
+                    <!--<button type="View Courses" style="color:rgb(242, 134, 95); border-color: white; border-top-right-radius: 10px; border-top-left-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px;"> .. View Courses</button>-->
+
+
+                   <div class="view">
+                    <a href > <img src="C:\Users\Fahad\Downloads\eyes_9888234.png" height="15px" width="18px" border:15px> View Courses</a>&nbsp;
+                   </div>
+                   <div class="contact">
+                    <a href><img src="C:\Users\Fahad\Downloads\phone-call_10484800.png" height="15px" width="18px" border:15px> &nbsp Contact</a>&nbsp;
+                   </div>
+                   
+                
+                   
+                </div>
+
+
+    </div>
+
+</footer>
+
+
+
+
+
+
+
+
+
+</html>
